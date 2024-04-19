@@ -4,11 +4,37 @@
   
     
     <entry>
+      <title>markdown语法</title>
+      <link href="/2024/04/19/markdown%E8%AF%AD%E6%B3%95/"/>
+      <url>/2024/04/19/markdown%E8%AF%AD%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h2 id="基础语法-一"><a href="#基础语法-一" class="headerlink" title="基础语法(一)"></a>基础语法(一)</h2><h3 id="1-加粗"><a href="#1-加粗" class="headerlink" title="1 加粗"></a>1 加粗</h3><p>**第一种加粗 **  不加粗对比</p><p><strong>第二种加粗</strong>      #不推荐使用</p><h3 id="2-斜体"><a href="#2-斜体" class="headerlink" title="2 斜体"></a>2 斜体</h3><p><em>斜体</em>      无斜体字体</p><h3 id="3-组合使用"><a href="#3-组合使用" class="headerlink" title="3 组合使用"></a>3 组合使用</h3><p><em><strong>斜体+加粗字体</strong></em></p><h3 id="4-删除线"><a href="#4-删除线" class="headerlink" title="4 删除线"></a>4 删除线</h3><p><del>此代码已经过期</del></p><h3 id="5-分割线"><a href="#5-分割线" class="headerlink" title="5 分割线"></a>5 分割线</h3><hr><h3 id="6-各级标题"><a href="#6-各级标题" class="headerlink" title="6 各级标题"></a>6 各级标题</h3><p>使用#表示一级标题，二级标题是##  三级用### 以此类推</p><h3 id="7-无序列表"><a href="#7-无序列表" class="headerlink" title="7  无序列表"></a>7  无序列表</h3><ul><li>第一项       可用*  或 + 或 -  如果混合使用会间隔开</li><li>第二项</li><li>第三项</li></ul><ul><li>笛</li></ul><ul><li>五</li></ul><ul><li>地</li></ul><h3 id="8-有序列表以及下级列表使用"><a href="#8-有序列表以及下级列表使用" class="headerlink" title="8 有序列表以及下级列表使用"></a>8 有序列表以及下级列表使用</h3><ol><li><p>第一件事</p><ul><li>其一</li><li>其二<ul><li>三级列表</li><li>其二</li></ul></li></ul></li><li><p>第二件事情</p><ol><li><p>其一</p></li><li><p>其二</p></li><li><p>三级列表</p><ol><li><p>其一</p></li><li><p>其二</p></li><li><p>其三</p></li></ol></li></ol></li><li><p>第三件事情</p></li></ol><h3 id="9-复选框"><a href="#9-复选框" class="headerlink" title="9 复选框"></a>9 复选框</h3><ul><li><input checked="" disabled="" type="checkbox"> 第一件事</li></ul><ol><li><ul><li><input disabled="" type="checkbox"> 第二件事</li></ul></li></ol><h3 id="10-代码块"><a href="#10-代码块" class="headerlink" title="10 代码块"></a>10 代码块</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span>() &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="行内代码块"><a href="#行内代码块" class="headerlink" title="行内代码块"></a>行内代码块</h4><p>比较两个对象时 使用<code>equals()</code>方法来鉴别</p><h3 id="11-引用"><a href="#11-引用" class="headerlink" title="11 引用"></a>11 引用</h3><blockquote><p>对于负数，补码表示方式也是人脑无法直观看出其数值的.<br>通常也需要转换成原码在计算其数值<br>补码解决了0的符号以及两个编码的问题，让计算机的减法可以直接转为加法运算(计算机内部都是用补码直接运算，只有负数与原码不一致)</p></blockquote><p><strong>对于引用中说明中想要转行</strong></p><ol><li>在其转行尾部两个空格</li><li>回车或可以每行都加&gt;</li></ol><h3 id="12超链接"><a href="#12超链接" class="headerlink" title="12超链接"></a>12超链接</h3><ol><li>简单链接：如果想购买xxx请前往<a href="https://www.baidu.com/">官网</a>含税单</li><li>引用链接：<a href="https://www.baidu.com/">如果</a>想<a href="https://www.baidu.com/">购买</a>xxx请前往<a href="https://www.baidu.com/">官网</a></li></ol><h3 id="13脚注"><a href="#13脚注" class="headerlink" title="13脚注"></a>13脚注</h3><p>神罗天正<a href="%E4%BD%A9%E6%81%A9%E5%A4%A7%E6%8B%9B">^1</a><br>万象天引[^2]</p><h3 id="14插入图片"><a href="#14插入图片" class="headerlink" title="14插入图片"></a>14插入图片</h3><p>第一种插入方式：<br><img src="https://s2.loli.net/2024/04/19/8xWlPnisEgJKQVb.jpg" alt="p1.jpg"><br>第二种变量法插入方式：<br><img src="https://s2.loli.net/2024/04/19/8xWlPnisEgJKQVb.jpg" alt="pp1.jpg"> </p><h3 id="15表格插入"><a href="#15表格插入" class="headerlink" title="15表格插入"></a>15表格插入</h3><table><thead><tr><th align="center">姓名</th><th align="center">年龄</th><th align="center">性别</th></tr></thead><tbody><tr><td align="center">邬金科</td><td align="center">200</td><td align="center">男</td></tr><tr><td align="center">人员D</td><td align="center">20000000</td><td align="center">男</td></tr><tr><td align="center">人员A</td><td align="center">211</td><td align="center">男</td></tr></tbody></table><blockquote><p>对于代码中”:“所在位置表示左对齐或右对齐<br>当两边都有符号”:“表示居中</p></blockquote><h3 id="16HTML相关使用（图片插入修改-字体修改-网页插入-等。。）"><a href="#16HTML相关使用（图片插入修改-字体修改-网页插入-等。。）" class="headerlink" title="16HTML相关使用（图片插入修改|字体修改|网页插入|等。。）"></a>16HTML相关使用（图片插入修改|字体修改|网页插入|等。。）</h3><iframe src="//player.bilibili.com/player.html?aid=1252624739&bvid=BV1eJ4m157kC&cid=1489709802&p=10" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第二篇文章</title>
+      <link href="/2024/03/08/2024-3-8-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2024/03/08/2024-3-8-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第二篇测试文章"><a href="#这是我的第二篇测试文章" class="headerlink" title="这是我的第二篇测试文章"></a>这是我的第二篇测试文章</h2><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章</title>
       <link href="/2024/03/06/2024-3-6-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2024/03/06/2024-3-6-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
-        <content type="html"><![CDATA[<h2 id="这是我的第一篇测试文章"><a href="#这是我的第一篇测试文章" class="headerlink" title="这是我的第一篇测试文章"></a>这是我的第一篇测试文章</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="这是我的第一篇测试文章"><a href="#这是我的第一篇测试文章" class="headerlink" title="这是我的第一篇测试文章"></a>这是我的第一篇测试文章</h2><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
@@ -55,9 +81,9 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -66,9 +92,9 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
